@@ -19,7 +19,7 @@ public class BookStoreClient {
 		Chapter chapter1 = new Chapter("Introducing JPA and Hibernate", 1);
 		chapters.add(chapter1);
 		Chapter chapter2 = new Chapter("Domain Models and Metadata", 2);
-		chapters.add(chapter2);
+		chapters.add(chapter2); 
 		book.setChapters(chapters);
 		bookStoreService.persistObjectGraph(book);
 		// retrieving object graph
